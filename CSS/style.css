@@ -1,24 +1,26 @@
 body {
     font-family: "Roboto", sans-serif;
-    color: #2e2f42;
-    background-color: azure;
+    color: #434455;
+    background-color: #ffffff;
 }
 
 .header-nav {
-    color: #2e2f42;
+    color: #434455;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 1.17;
     letter-spacing: 0.02em;
+    font-style: normal;
 }
 
 .header-nav:hover, 
 .header-nav:focus {
     font-family: "Ralewey", sans-serif;
-    color: #4d5ae5;
-}
+    color: #404bbf
+    }
 
 .logo{
+   font-family: "Ralewey", sans-serif;
    font-weight: 700;
    font-size: 18px;
    letter-spacing: 0.03em;
@@ -28,17 +30,22 @@ body {
 }
 
 .logo-color {
-    color: #2e2f42;
+    color: #434455;
 }
 
 .header-address{
-    color: #2e2f42;
+    color: #434455;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-style: normal;
 }
 
 .header-address:hover,
 .header-address:focus {
     font-family: "Ralewey", sans-serif;
-    color: #4d5ae5;
+    color: #404bbf;
     
 }
 
@@ -51,7 +58,7 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.7;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
@@ -69,6 +76,13 @@ body {
     background-color: #4d5ae5;
 }
 
+.hero-button:hover,
+.hero-button:focus{
+    font-family: "Ralewey", sans-serif;
+    background-color: #404bbf;
+    cursor: pointer;
+}
+
 .feature-box{
     background-color: #fff;
 }
@@ -79,6 +93,7 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .info-feature{
@@ -88,8 +103,6 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    width: 264px;
-    height: 104px;
 }
 
 .title-team{
@@ -121,9 +134,10 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
     color: #2e2f42;
 }
 
@@ -150,9 +164,11 @@ body {
 }
 
 .logo-link {
+    font-family: "Raleway" sans-serif;
     font-weight: 700;
     font-size: 18px;
     letter-spacing: 0.03em;
+    line-height: 1.17;
     text-transform: uppercase;
     text-decoration: none;
     color: #4d5ae5;
