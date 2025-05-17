@@ -1,0 +1,171 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #2e2f42;
+    background-color: azure;
+}
+
+.header-nav {
+    color: #2e2f42;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.header-nav:hover, 
+.header-nav:focus {
+    font-family: "Ralewey", sans-serif;
+    color: #4d5ae5;
+}
+
+.logo{
+   font-weight: 700;
+   font-size: 18px;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   text-decoration: none;
+   color: #4d5ae5;
+}
+
+.logo-color {
+    color: #2e2f42;
+}
+
+.header-address{
+    color: #2e2f42;
+}
+
+.header-address:hover,
+.header-address:focus {
+    font-family: "Ralewey", sans-serif;
+    color: #4d5ae5;
+    
+}
+
+.hero{
+    height: 600px;
+    background-color: #2e2f42;
+}
+
+.hero-title{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-button{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    width: 169px;
+    height: 56px;
+    background-color: #4d5ae5;
+}
+
+.feature-box{
+    background-color: #fff;
+}
+
+.feature{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.info-feature{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    width: 264px;
+    height: 104px;
+}
+
+.title-team{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+}
+
+.team{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.info-team{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.portfolio-title{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.portfolio-name{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.portoflio-info{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.footer{
+    height: 312px;
+    background: #2e2f42;
+}
+
+.logo-link {
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #4d5ae5;
+}
+
+.logo-color-link {
+    color: #f4f4fd;}
+
+.footer-info{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+}
