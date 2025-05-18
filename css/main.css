@@ -45,8 +45,8 @@ body {
     text-decoration: none;
 }
 
-.header-address :hover,
-.header-address :focus {
+.header-address:hover,
+.header-address:focus {
     color: #404bbf;
 }
 
