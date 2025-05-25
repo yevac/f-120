@@ -38,17 +38,21 @@ p {
     padding: 0;
 }
 
-.site-header{
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: row;
+.container {
+    max-width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.site-header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; 
     padding: 24px 0;
 }
 
@@ -61,10 +65,6 @@ p {
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
-    margin-top: 24px;
-    margin-right: 76px;
-    margin-bottom: 24px;
-    margin-left: 156px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -140,10 +140,6 @@ p {
     list-style: none;
 }
 
-.first-container {
-    width: 1440px;
-    height: 600px;
-}
 .hero {
     background-color: #2e2f42;
     padding: 188px 0;
@@ -164,6 +160,8 @@ p {
 }
 
 .hero-btn {
+    display: block;
+    min-width: 169px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -174,6 +172,7 @@ p {
     border: none;
     border-radius: 4px;
     padding: 16px 32px;
+    margin: 0 auto;
 }
 
 .hero-btn:hover,
@@ -186,12 +185,22 @@ p {
 }
 
 .visually-hidden {
-    display: none;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    white-space: nowrap;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    clip-path: inset(100%);
+    border: 0;
 }
 
 .feature-list {
     display: flex;
     gap: 24px;
+    flex-basis: calc((100% - 3 * 24px) / 4);
     list-style: none;
     padding: 0 156px;
 }
@@ -203,6 +212,7 @@ p {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .feature-text {
@@ -214,6 +224,7 @@ p {
 
 .team-section {
     background-color: #f4f4fd;
+    padding: 120px 0;
 }
 
 .section-title {
@@ -226,11 +237,6 @@ p {
     color: #2e2f42;
     padding-top: 120px;
     margin-bottom: 72px;
-}
-
-.third-container {
-    width: 1440px;
-    height: 732px;
 }
 
 .team-list {
@@ -270,11 +276,12 @@ p {
     text-align: center;
 }
 
-.fourth-container {
+/*.fourth-container {
     width: 1128px;
     height: 1000px;
     margin: 120px 156px;
 }
+*/
 
 .portfolio-title {
     font-weight: 700;
@@ -321,10 +328,6 @@ p {
     margin-left: 16px;
 }
 
-.footer-container {
-    width: 1440px;
-    height: 312px;
-}
 
 .page-footer {
     padding: 100px 0;
