@@ -69,7 +69,6 @@ p {
     justify-content: flex-start;
     flex-direction: row;
     gap: 0px;
-    padding: 24px 0;
     margin-right: 76px;
 }
 
@@ -84,6 +83,8 @@ p {
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-decoration: none;
+    padding: 24px 0;
+    display: inline-block;
 }
 
 .site-nav:hover, 
@@ -202,7 +203,11 @@ p {
     display: flex;
     gap: 24px;
     list-style: none;
-    padding: 0 156px;
+    padding: 0;
+    margin: 0;
+}
+
+.feature-card {
     width: calc((100% - 72px) / 4);
 }
 
@@ -246,7 +251,6 @@ p {
     gap: 24px;
     padding: 0;
     margin: 0;
-    width: calc((100% - 3 * 24px) / 4);
 }
 
 .team-card {
@@ -255,6 +259,7 @@ p {
     padding: 0px 0px 32px 0px;
     width: 264px;
     height: 380px;
+    width: calc((100% - 3 * 24px) / 4);
 }
 
 .team-info {
