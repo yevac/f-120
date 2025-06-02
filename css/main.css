@@ -69,6 +69,7 @@ p {
     justify-content: flex-start;
     flex-direction: row;
     gap: 0px;
+    margin-right: 76px;
 }
 
 .logo-accent {
@@ -357,6 +358,7 @@ p {
     background-color: #2e2f42;
     text-decoration: none;
     margin-left: 156px;
+    margin-bottom: 16px;
 }
 
 .logo-accent-footer{
@@ -371,7 +373,6 @@ p {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-    margin-top: 16px;
     max-width: 264px;
     margin-left: 156px;
 }
