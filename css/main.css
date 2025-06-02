@@ -69,7 +69,6 @@ p {
     justify-content: flex-start;
     flex-direction: row;
     gap: 0px;
-    margin-right: 76px;
 }
 
 .logo-accent {
@@ -154,7 +153,6 @@ p {
     letter-spacing: 0.02em;
     text-align: center;
     color: #ffffff;
-    margin-top: 188px;
     margin-bottom: 48px;
     max-width: 496px;
     margin-left: auto;
@@ -257,7 +255,6 @@ p {
     background: #ffffff;
     border-radius: 0 0 4px 4px;
     padding: 0px 0px 32px 0px;
-    width: 264px;
     height: 380px;
     width: calc((100% - 3 * 24px) / 4);
 }
@@ -273,7 +270,6 @@ p {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    margin-top: 32px;
     margin-bottom: 8px;
 }
 
@@ -361,7 +357,6 @@ p {
     background-color: #2e2f42;
     text-decoration: none;
     margin-left: 156px;
-    margin-bottom: 16px;
 }
 
 .logo-accent-footer{
