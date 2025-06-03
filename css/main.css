@@ -196,11 +196,11 @@ p {
     display: flex;
     gap: 24px;
     list-style: none;
+    padding: 120px 0
 }
 
 .feature-card {
     width: calc((100% - 72px) / 4);
-    padding: 120px 0
 }
 
 
