@@ -196,12 +196,11 @@ p {
     display: flex;
     gap: 24px;
     list-style: none;
-    padding: 0;
-    margin: 0;
 }
 
 .feature-card {
     width: calc((100% - 72px) / 4);
+    padding: 120px 0
 }
 
 
@@ -249,11 +248,10 @@ p {
 .team-card {
     background: #ffffff;
     border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px 0px;
 }
 
 .team-info {
-    padding: 32px 0 0 0;
+    padding: 32px 0;
 }
 
 .team-name {
@@ -287,7 +285,6 @@ p {
         letter-spacing: 0.02em;
         text-transform: capitalize;
         color: #2e2f42;
-        /* padding-top: 120px; */
         margin-bottom: 72px;
     }
 
