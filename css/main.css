@@ -179,8 +179,9 @@ p {
   background-color: #404bbf;
 }
 
-.container.scnd-container {
-    padding: 120px 0 120px;
+.scnd-container {
+    padding: 120px 0;
+
 }
 
 .visually-hidden {
