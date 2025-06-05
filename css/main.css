@@ -95,6 +95,7 @@ p {
 .header-nav {
     display: flex;
     align-items: center;
+    margin-right: 332px;
 }
 
 .nav-list {
@@ -118,7 +119,7 @@ p {
 .contact-list {
     display: flex;
     gap: 40px;
-    margin: 0 0 0 332px;
+    margin: 0;
     padding: 0;
 }
 
@@ -321,7 +322,6 @@ p {
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
-    padding-top: 32px;
 }
 
 .portfolio-info {
