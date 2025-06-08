@@ -502,12 +502,12 @@ p {
     flex-wrap: wrap;
 }
 
-.soc-media-footer {
+.footer-social {
     display: flex;
     flex-direction: column;
 }
 
-.soc-footer-title {
+.footer-social-title {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
