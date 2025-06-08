@@ -129,6 +129,10 @@ p {
     padding: 0;
 }
 
+.current {
+    color: #404bbf;
+}
+
 .nav-item{
     display: flex;
     align-items: flex-start;
@@ -513,7 +517,7 @@ p {
     margin-bottom: 16px;
 }
 
-.social-list-footer {
+.footer-list {
     display: flex;
     gap: 16px;
     padding: 0;
@@ -535,5 +539,5 @@ p {
 
 .footer-link:hover,
 .footer-link:focus {
-    background-color: #404bbf;
+    background-color: #31d0aa;
 }
