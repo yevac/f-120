@@ -554,7 +554,7 @@ p {
     opacity: 0;
     pointer-events: none;
 }
-/*
+
 .modal-overlay.is-open {
     opacity: 1;
     pointer-events: auto;
@@ -706,4 +706,4 @@ textarea.form-input {
 .form-btn:focus {
     background-color: #404bbf;
 }
-    */
+    
