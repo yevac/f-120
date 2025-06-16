@@ -543,7 +543,6 @@ p {
 .follow-window {
   display: flex;
   flex-direction: column;
-  gap: 16px;
 }
 
 .footer-inpt-text {
@@ -553,6 +552,7 @@ p {
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-left: 24px;
+  margin-bottom: 16px;
 }
 
 .footer-form {
