@@ -540,53 +540,76 @@ p {
     background-color: #31d0aa;
 }
 
+.follow-window {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.footer-inpt-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-left: 24px;
+}
+
+.footer-form {
+  display: flex;
+  gap: 24px;
+}
+
 .footer-label {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    margin-left: 80px;
+  display: block;
 }
 
 .footer-input {
-    display: flex;
-    flex-direction: column;
-    border: 1px solid #fff;
-    border-radius: 4px;
-    width: 264px;
-    height: 40px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 2;
-    letter-spacing: 0.04em;
-    color: #fff;
-    background-color: #2e2f42;
+  width: 264px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background-color: transparent;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  padding-left: 16px;
+}
+
+.footer-input::placeholder {
+  color: #ffffff;
 }
 
 .footer-btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 4px;
-    padding: 8px 24px;
-    width: 165px;
-    height: 40px;
-    color: #fff;
-    background: #4d5ae5;
-    border: none;
-    margin-left: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 165px;
+  height: 40px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 250ms ease-in-out;
 }
 
 .footer-btn:hover,
 .footer-btn:focus {
-    background-color: #404bbf;
+  background-color: #404bbf;
 }
+
+.icon-footer {
+  margin-left: 16px;
+}
+
 
 .modal-overlay {
     background-color: rgba(0, 0, 0, 0.5);
