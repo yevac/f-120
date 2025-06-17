@@ -675,11 +675,10 @@ p {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.vector:hover,
-.vector:focus {
+.close-btn:hover .vector,
+.close-btn:focus .vector {
     fill: #ffffff;
 }
-
 .send-contacts {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -729,6 +728,7 @@ p {
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     background-color: transparent;
+    outline: transparent;
     width: 360px;
     height: 40px;
     width: 100%;
@@ -751,7 +751,7 @@ p {
 }
 
 .input-icon:focus {
-    fill: #4D5AE5;
+    fill: #4d5ae5;
 }
 
 textarea.form-input {
