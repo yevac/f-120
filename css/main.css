@@ -677,7 +677,7 @@ p {
 
 .vector:hover,
 .vector:focus {
-    fill: #fff;
+    fill: #ffffff;
 }
 
 .send-contacts {
@@ -703,11 +703,16 @@ p {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 12px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
     display: block;
-    margin: ;
+    margin-bottom: 4px;
+}
+
+.input-wrapper {
+    position: relative;
+} 
 
 .form-icon {
     position: absolute;
@@ -723,13 +728,30 @@ p {
     justify-content: center;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
+    background-color: transparent;
     width: 360px;
     height: 40px;
     width: 100%;
-    padding: 10px;
+    padding-left: 38px;
     font-size: 14px;
     box-sizing: border-box;
-    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-input:focus {
+    border-color: #4d5ae5;
+}
+
+.input-icon {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.input-icon:focus {
+    fill: #4D5AE5;
 }
 
 textarea.form-input {
