@@ -687,11 +687,11 @@ p {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    margin-bottom: 24px;
+    margin-bottom: 16px;
 }
 
 .form-div {
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 
 .postn-icon {
@@ -755,7 +755,7 @@ p {
 }
 
 input[type="checkbox"]:checked+span {
-    fill: #f4f4fd;
+    fill: #F4F4FD;
 }
 
 textarea.form-input {
@@ -798,6 +798,10 @@ textarea.form-input {
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
+}
+
+.checkbox-wrapper {
+    margin-bottom: 24px;
 }
 
 .checkbox-custom {
@@ -859,7 +863,7 @@ textarea.form-input {
     padding: 16px 32px;
     min-width: 169px;
     height: 56px;
-    margin: 24px auto;
+    margin: auto;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
