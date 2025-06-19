@@ -755,11 +755,6 @@ p {
     fill: #4d5ae5;
 }
 
-input[type="checkbox"]:checked+span {
-    fill: #f4f4fd;
-    background-color: #404bbf;
-}
-
 .form-comment {
     margin-bottom: 16px;
 }
@@ -785,7 +780,6 @@ textarea.form-input {
 }
 
 .privacy-label {
-    display: inline-flex;
     align-items: center;
     gap: 8px;
     font-size: 12px;
@@ -822,7 +816,8 @@ textarea.form-input {
 }
 
 .visually-hidden:checked+.privacy-label .checkbox-icon {
-    fill: #f4f4fd; }
+    fill: #f4f4fd;
+}
 
 .privacy-link {
     font-family: "Roboto", sans-serif;
