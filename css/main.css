@@ -815,7 +815,7 @@ textarea.form-input {
     border: none;
 }
 
-.visually-hidden:checked+ label .checkbox-icon {
+.visually-hidden:checked+.privacy-label .checkbox-icon {
     fill: #f4f4fd;
 }
 
