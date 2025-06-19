@@ -760,6 +760,10 @@ input[type="checkbox"]:checked+span {
     background-color: #404bbf;
 }
 
+.form-comment {
+    margin-bottom: 16px;
+}
+
 textarea.form-input {
     height: 120px;
     font-family: "Roboto", sans-serif;
@@ -781,7 +785,6 @@ textarea.form-input {
 }
 
 .privacy-label {
-    display: flex;
     align-items: center;
     gap: 8px;
     font-size: 12px;
@@ -807,12 +810,12 @@ textarea.form-input {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.checkbox-hidden:checked+.privacy-label .checkbox-custom {
+.checkbox-custom:checked+.privacy-label {
     background-color: #f4f4fd;
     border: none;
 }
 
-.checkbox-hidden:checked+.privacy-label .checkbox-icon {
+.checkbox-custom:checked+.privacy-label .checkbox-icon {
     fill: #404bbf; 
 }
 
