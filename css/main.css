@@ -551,7 +551,7 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
-  margin-left: 24px;
+  margin-left: 80px;
   margin-bottom: 16px;
 }
 
@@ -562,6 +562,7 @@ p {
 
 .footer-label {
   display: block;
+  margin-left: 80px;
 }
 
 .footer-input {
@@ -608,6 +609,7 @@ p {
 
 .icon-footer {
   margin-left: 16px;
+  fill: #fff;
 }
 
 
@@ -825,9 +827,7 @@ textarea.form-input {
     font-weight: 400;
     font-size: 12px;
     letter-spacing: 0.04em;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    display: inline;
     line-height: 1.33333;
     text-decoration: underline;
     color: #4d5ae5;
