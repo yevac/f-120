@@ -857,6 +857,77 @@ textarea.form-input {
     background-color: #404bbf;
 }
 
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    z-index: 999;
+    transform: translateX(100%);
+    transition: transform 250ms ease-in-out;
+    padding: 40px 20px;
+}
+
+.mobile-menu.is-open {
+    transform: translateX(0);
+}
+
+.is-hidden {
+    display: none;
+}
+
+.mobile-menu-close {
+    background: none;
+    border: none;
+    font-size: 28px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.mobile-nav-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 60px;
+}
+
+.mobile-link {
+    display: block;
+    padding: 16px 0;
+    font-size: 24px;
+    text-decoration: none;
+    color: #2e2f42; 
+}
+
+.menu-toggle {
+    background: none;
+    border: none;
+    font-size: 28px;
+    cursor: pointer;
+    display: block;
+}
+
+@media (min-width: 768px) {
+    .menu-toggle {
+        display: none;
+    } }
+
+@media (min-width: 768px) {
+    body {
+        font-size: 16px;
+        padding: 24px;
+    }
+}
+
+@media (min-width: 1158px) {
+    body {
+        font-size: 18px;
+        padding: 32px;
+    } }
+
 @media (min-resolution: 192pdi) {
     .hero {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
