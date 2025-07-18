@@ -187,7 +187,7 @@ p {
     background-image: linear-gradient(to bottom,
               rgba(46, 47, 66, 0.7),
               rgba(46, 47, 66, 0.7)),
-            url(../images/heroimg.jpg);
+            url(../images/imagess/people-office\ @1x-min.jpg);
     max-width: 1440px; 
     background-repeat: no-repeat;
     background-position: center;
@@ -719,7 +719,7 @@ p {
 
 .input-wrapper {
     position: relative;
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 } 
 
 .form-icon {
@@ -988,6 +988,16 @@ textarea.form-input {
 .social-link-menu:hover {
     color: #404bbf;
 }
+
+@media (min-resolution: 192dpi) {
+    .hero {
+        background-image: linear-gradient(
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/imagess/people-office\ @2x-min.jpg);
+    }
+}
     
 @media screen and (min-width: 768px) {
     .container {
@@ -1035,6 +1045,13 @@ textarea.form-input {
 
     .header-address {
         font-size: 12px;
+    }
+
+    .hero {
+        background-image: linear-gradient(to bottom,
+                    rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)),
+        url(../images/imagess/people-office\ @1x-min.jpg);
     }
 
     .feature-card {
@@ -1146,7 +1163,20 @@ textarea.form-input {
         .form-input {
             width: 360px;
         }
+
+        .input-wrapper {
+            margin-bottom: 16px;
+        }
     }
+    
+@media (min-width: 768px) and (min-resolution: 192dpi) {
+    .hero {
+        background-image: linear-gradient(to bottom,
+                    rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)),
+                     url(../images/imagess/people-office\ @2x-min.jpg); 
+    }
+}
 
 @media screen and (min-width: 1158px) {
     .container {
@@ -1161,6 +1191,13 @@ textarea.form-input {
 
     .header-address {
         font-size: 16px;
+    }
+
+    .hero {
+        background-image: linear-gradient(to bottom,
+                    rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)),
+                    url(../images/imagess/people-office\ @1x-min.jpg);
     }
 
         .features-section {
@@ -1228,4 +1265,13 @@ textarea.form-input {
     }
 
     
+}
+
+@media (min-width: 1158px) and (min-resolution: 192dpi) {
+    .hero {
+        background-image: linear-gradient(to bottom,
+                    rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)), 
+                    url(../images/imagess/people-office\ @2x-min.jpg);
+    }
 }
