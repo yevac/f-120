@@ -1113,6 +1113,7 @@ textarea.form-input {
 
         .footer-left {
             margin-left: 120px;
+            margin-bottom: 72px;
         }
     
         .footer-social {
@@ -1243,6 +1244,7 @@ textarea.form-input {
 
    .footer-left {
        margin-left: 0;
+       margin-bottom: 0;
    }
 
    .footer-social {
