@@ -49,16 +49,16 @@
             </ul>
         </address>
 
-        <button type="button" class="header-btn">
+        <button type="button" class="header-btn" data-menu-open>
             <svg class="burger-icon" width="24" height="24">
               <use href="./images/symbol-defs-4.svg#icon-heroicons-solid_menu"></use>
             </svg>
         </button>
       </div>
 
-      <div class="mobile-menu is-open">
+      <div class="mobile-menu" data-menu>
         <div class="container mob-menu-container">
-            <button type="button" class="close-btn-menu">
+            <button type="button" class="close-btn-menu" data-menu-close>
                 <svg class="vector" width="8" height="8">
                     <use href="./images/symbol-defs_3.svg#icon-Vector"></use>
                 </svg>
@@ -131,7 +131,7 @@
         <section class="hero">
           <div class="container">
             <h1 class="hero-title">Effective Solutions<br />for Your Business</h1>
-            <button class="hero-btn" type="button">Order Service</button>
+            <button class="hero-btn" type="button" data-modal-open>Order Service</button>
           </div>
         </section>
 
@@ -520,9 +520,9 @@
     </div>
     </footer>
 
-    <div class="modal-overlay is-open">
+    <div class="modal-overlay" data-modal>
         <div class="modal">
-            <button type="button" class="close-btn">
+            <button type="button" class="close-btn" data-modal-close>
                 <svg class="vector" width="8" height="8">
                     <use href="./images/symbol-defs_3.svg#icon-Vector"></use>
                 </svg>
@@ -585,6 +585,9 @@
         </form>
         </div>
     </div>
+
+    <script src="../js/modal.js"></script>
+    <script src="../js/menu.js"></script>
 
 </body>
 
