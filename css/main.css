@@ -192,14 +192,14 @@ p {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding: 188px 0;
+    padding: 72px 0;
     text-align: center;
     margin: 0 auto;
     
 }
 
 .hero-title {
-    font-size: 56px;
+    font-size: 36px;
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
@@ -264,7 +264,7 @@ p {
 
 .feature-list {
     display: flex;
-    gap: 72px;
+    gap: 72px 24px;
     list-style: none;
     flex-wrap: wrap;
     justify-content: center;
@@ -277,7 +277,7 @@ p {
 
 .feature-title {
     font-weight: 500;
-    font-size: 20px;
+    font-size: 36px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
@@ -287,6 +287,7 @@ p {
 
 .feature-text {
     font-size: 16px;
+    font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
@@ -938,7 +939,7 @@ textarea.form-input {
     color: #2e2f42;
 }
 
-.site-nav-menu:hover {
+.current {
     color: #404bbf;
 }
 
@@ -961,7 +962,7 @@ textarea.form-input {
     font-style: normal;
 }
 
-.header-address-menu:hover {
+.tel {
     color: #404bbf;
 }
 
@@ -1052,7 +1053,12 @@ textarea.form-input {
                     rgba(46, 47, 66, 0.7),
                     rgba(46, 47, 66, 0.7)),
         url(../images/imagess/people-office\ @1x-min.jpg);
+        padding: 112px 0;
     }
+
+        .hero-title {
+            font-size: 56px;
+        }
 
     .feature-card {
         width: calc((100% - 72px) / 2);
@@ -1060,8 +1066,16 @@ textarea.form-input {
         flex-wrap: wrap;
     }
 
+    .feature-title {
+        text-align: start;
+    }
+
     .feature-text {
-        text-align: left;
+        text-align: start;
+    }
+
+    .team-list {
+        gap: 64px 24px;
     }
 
     .team-social-link:hover,
@@ -1199,6 +1213,7 @@ textarea.form-input {
                     rgba(46, 47, 66, 0.7),
                     rgba(46, 47, 66, 0.7)),
                     url(../images/imagess/people-office\ @1x-min.jpg);
+        padding: 188px 0;
     }
 
         .features-section {
@@ -1214,6 +1229,14 @@ textarea.form-input {
     
         .feature-card {
             width: calc((100% - 72px) / 4); 
+        }
+
+        .feature-title {
+            font-size: 20px;
+        }
+
+        .feature-text {
+            font-weight: 400;
         }
 
         .icon-item {
